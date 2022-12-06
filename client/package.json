@@ -1,5 +1,5 @@
 {
-  "name": "JATE",
+  "name": "text-edit-app",
   "scripts": {
     "dev": "webpack-dev-server",
     "build": "webpack --mode production",
@@ -25,6 +25,12 @@
   },
   "dependencies": {
     "code-mirror-themes": "^1.0.0",
-    "idb": "^6.1.2"
+    "idb": "^6.1.2",
+    "workbox-cacheable-response": "^6.5.4",
+    "workbox-expiration": "^6.5.4",
+    "workbox-precaching": "^6.5.4",
+    "workbox-recipes": "^6.5.4",
+    "workbox-routing": "^6.5.4",
+    "workbox-strategies": "^6.5.4"
   }
 }
