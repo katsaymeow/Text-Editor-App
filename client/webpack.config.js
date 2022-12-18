@@ -38,9 +38,9 @@ module.exports = () => {
         description: 'Take notes with Javascript syntax highlighting!',
         background_color: '#31a9e1',
         theme_color: '#31a9e1',
-        start_url: './',
+        start_url: '/',
         publicPath: './',
-        crossorigin: 'use-credentials',
+        // crossorigin: 'use-credentials',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
